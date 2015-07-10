@@ -29,6 +29,8 @@ int main() {
 
   Texture ziki("res/ziki.png");
 
+  int a;
+
   Player player;
   player.pos = Vec2f(0, 0);
   player.size = Vec2f(ziki.width(), ziki.height());
